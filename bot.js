@@ -82,7 +82,7 @@ var typingSpeed = 0.3; //characters per second
 
 var connect = function() {
 	console.log("Logging in".system);
-	client.login(process.env.token).catch(connectionError);
+	client.login(process.env.TOKEN).catch(connectionError);
 }
 
 client.on('ready', () => {
